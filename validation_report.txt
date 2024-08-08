@@ -1,0 +1,32 @@
+EmployeeID: 101, Name: John Doe
+ - Worked more than one shift on Monday.
+ - Worked the night shift on consecutive days.
+
+EmployeeID: 102, Name: Jane Smith
+ - Worked more than 5 days in the week.
+ - Worked the night shift on consecutive days.
+
+EmployeeID: 104, Name: Emily Davis
+ - Worked more than 5 days in the week.
+ - Worked the night shift on consecutive days.
+ - Inconsistent Name values detected.
+
+EmployeeID: 105, Name: Robert Brown
+ - Worked more than 5 days in the week.
+ - Worked the night shift on consecutive days.
+
+EmployeeID: 106, Name: Jessica Taylor
+ - Worked more than 5 days in the week.
+
+EmployeeID: 107, Name: Daniel Wilson
+ - Worked more than 5 days in the week.
+ - Worked the night shift on consecutive days.
+
+EmployeeID: 108, Name: Laura White
+ - Worked more than 5 days in the week.
+ - Inconsistent Name values detected.
+
+EmployeeID: 109, Name: Henry Harris
+ - Worked more than 5 days in the week.
+ - Worked the night shift on consecutive days.
+
