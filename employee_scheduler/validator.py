@@ -1,5 +1,6 @@
 from rules.base_rule import ValidationRule
 
+
 class Validator:
     def __init__(self):
         self.rules = []
