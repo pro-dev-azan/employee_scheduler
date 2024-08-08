@@ -14,10 +14,9 @@ class TestValidator(unittest.TestCase):
         self.assertEqual(len(self.validator.rules), 1)
 
     def test_validate(self):
-        # Assuming you have mock data
         rule = OneShiftPerDayRule()
         self.validator.add_rule(rule)
-        mock_data = {}  # Your mock DataFrame here
+
         mock_data = pd.DataFrame({
             'EmployeeID': [101, 101],
             'Name': ['John Doe', 'John Doe'],
@@ -25,7 +24,7 @@ class TestValidator(unittest.TestCase):
             'Shift': ['Morning', 'Afternoon']
         })
         errors = self.validator.validate(mock_data)
-        # import pdb; pdb.set_trace()
+
         self.assertIsInstance(errors, list)
 
 if __name__ == '__main__':
